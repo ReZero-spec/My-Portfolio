@@ -1,4 +1,4 @@
-# Arnel M. Rebond | Portfolio
+# Argem C. Pasuquin | Portfolio
 
 Personal portfolio built with Next.js (App Router), TypeScript, Tailwind CSS v4, Motion, and Lucide icons.
 
@@ -35,14 +35,14 @@ my-portfolio/
 
 ## What you need to replace
 
-| What | Where |
-| --- | --- |
-| Email address | `email` in `src/data/site.ts` |
-| LinkedIn and GitHub URLs | `social` in `src/data/site.ts` |
-| Resume | Overwrite `public/resume.pdf` (keep the filename). The current file is a labelled placeholder |
-| Projects | `src/data/projects.ts`. Add `liveUrl`, `githubUrl`, and an `image` in `public/images/` when real |
-| Placeholder project card | Delete the "Your Project Name" entry in `src/data/projects.ts` |
-| Favicon | Replace `public/favicon.ico` if you want a different one |
+| What                     | Where                                                                                            |
+| ------------------------ | ------------------------------------------------------------------------------------------------ |
+| Email address            | `email` in `src/data/site.ts`                                                                    |
+| LinkedIn and GitHub URLs | `social` in `src/data/site.ts`                                                                   |
+| Resume                   | Overwrite `public/resume.pdf` (keep the filename). The current file is a labelled placeholder    |
+| Projects                 | `src/data/projects.ts`. Add `liveUrl`, `githubUrl`, and an `image` in `public/images/` when real |
+| Placeholder project card | Delete the "Your Project Name" entry in `src/data/projects.ts`                                   |
+| Favicon                  | Replace `public/favicon.ico` if you want a different one                                         |
 
 The "(placeholder)" labels in the Contact section disappear automatically once the email and social links no longer contain placeholder text.
 
